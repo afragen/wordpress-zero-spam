@@ -2,9 +2,9 @@
 Contributors: bmarshall511, afragen, tangrufus
 Donate link: https://www.gittip.com/bmarshall511/
 Tags: comments, spam, antispam, anti-spam, comment spam, spambot, spammer, spam free, spam blocker, registration spam
-Requires at least: 3.0.0
+Requires at least: 3.8
 Tested up to: 4.0.0
-Stable tag: 1.5.0
+Stable tag: 1.6.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,9 @@ Yes, currently there's two hooks available:
 == Screenshots ==
 
 == Changelog ==
+
+= 1.6.0 =
+* Diverge from original plugin to fork afragen/wordpress-zero-spam
 
 = 1.5.0 =
 * Switched to using a nonce to validate form submissions that support WordPress Zero Spam
