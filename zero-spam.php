@@ -49,32 +49,6 @@ class Zero_Spam {
 	}
 
 	/**
-	 * WordPress actions.
-	 *
-	 * Adds WordPress actions using the plugin API.
-	 *
-	 * @since 1.0.0
-	 * @access private
-	 *
-	 * @link http://codex.wordpress.org/Plugin_API/Action_Reference
-	 */
-	private function _actions() {
-	}
-
-	/**
-	 * WordPress filters.
-	 *
-	 * Adds WordPress filters.
-	 *
-	 * @since 1.1.0
-	 * @access private
-	 *
-	 * @link http://codex.wordpress.org/Function_Reference/add_filter
-	 */
-	private function _filters() {
-	}
-
-	/**
 	 * Plugin meta links.
 	 *
 	 * Adds links to the plugins meta.
