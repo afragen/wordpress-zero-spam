@@ -7,6 +7,8 @@
  * Author: Ben Marshall
  * Author URI: http://www.benmarshall.me
  * License: GPL2
+ * GitHub Plugin URI: https://github.com/afragen/wordpress-zero-spam
+ * GitHub Branch: develop
  */
 
 /*  Copyright 2014  Ben Marshall  (email : me@benmarshall.me)
