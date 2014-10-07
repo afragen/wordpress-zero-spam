@@ -146,4 +146,4 @@ class Zero_Spam {
 	}
 }
 
-$zero_spam = new Zero_Spam;
+new Zero_Spam;
