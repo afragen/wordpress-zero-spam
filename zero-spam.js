@@ -11,19 +11,19 @@
  */
 
 ( function( $ ) {
-    'use strict';
+	'use strict';
 
-    var forms = "#commentform, #registerform";
+	var forms = "#commentform, #registerform";
 
-    if ( typeof zerospam.nonce != 'undefined') {
-      $( forms ).submit( function() {
-          $( "<input>" ).attr( "type", "hidden" )
-              .attr( "name", "zero-spam" )
-              .attr( "value", zerospam.nonce )
-              .appendTo( forms );
+	if ( typeof zerospam.nonce != 'undefined') {
+		$( forms ).submit( function() {
+			$( "<input>" ).attr( "type", "hidden" )
+				.attr( "name", "zero-spam" )
+				.attr( "value", zerospam.nonce )
+				.appendTo( forms );
 
-          return true;
-      });
-    }
+			return true;
+		});
+	}
 
 })( jQuery );
