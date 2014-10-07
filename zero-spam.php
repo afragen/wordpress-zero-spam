@@ -32,7 +32,7 @@ defined('ABSPATH') or die("No script kiddies please!");
 
 class Zero_Spam {
     /**
-     * Plugin initilization.
+     * Plugin initialization.
      *
      * Initializes the plugins functionality.
      *
@@ -138,7 +138,7 @@ class Zero_Spam {
      * @link http://codex.wordpress.org/Function_Reference/wp_enqueue_script
      */
     public function wp_enqueue_scripts() {
-        wp_register_script( 'zero-spam', plugins_url( '/zero-spam.min.js' , __FILE__ ), array( 'jquery' ), '1.1.0', true );
+        wp_register_script( 'zero-spam', plugins_url( '/zero-spam.js' , __FILE__ ), array( 'jquery' ), '1.1.0', true );
         wp_localize_script( 'zero-spam', 'zerospam', array(
             'nonce' => wp_create_nonce( 'zerospam' )
         ) );

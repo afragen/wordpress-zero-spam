@@ -1,6 +1,2 @@
-node_modules
-.svn
-deploy.sh
-tags
-trunk
-tmp
+.DS_Store
+.idea
