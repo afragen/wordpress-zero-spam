@@ -1,2 +1,11 @@
+node_modules
+.svn
+deploy.sh
+tags
+trunk
+tmp
 .DS_Store
-.idea
+.sass-cache
+js-dev
+css-dev
+img-dev

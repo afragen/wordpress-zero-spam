@@ -1,0 +1,22 @@
+{
+  "name": "zero-spam",
+  "version": "1.5.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bmarshall511/wordpress-zero-spam.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-concurrent": "*",
+    "grunt-contrib-compass": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-shell": "*",
+    "load-grunt-config": "*",
+    "grunt-contrib-copy": "*"
+  },
+  "dependencies": {
+    "time-grunt": "*"
+  }
+}
